@@ -52,7 +52,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://i.ibb.co/YPWN16r/BG.jpg'); 
+    background-image: url('https://i.ibb.co/TBLfBX8g/image.png'); 
     background-size: cover;
     background-position: center top;
     filter: blur(8px) brightness(0.5); 
@@ -65,7 +65,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url('https://i.ibb.co/YPWN16r/BG.jpg'); 
+    background-image: url('https://i.ibb.co/TBLfBX8g/image.png'); 
     background-size: cover;
     background-position: center top;
 }
@@ -234,4 +234,5 @@ body {
     vertical-align: middle; 
     margin-left: 5px; 
     display: inline-block;
+
 }
