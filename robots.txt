@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-
 Sitemap: https://rrss.salinastech.com/sitemap.xml
