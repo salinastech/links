@@ -365,7 +365,6 @@ body {
 @media (max-width: 480px) {
     .background-container {
         display: none;
-        /* Desaparece el fondo radial circular */
     }
 
     body {
@@ -375,13 +374,11 @@ body {
 
     .card-container {
         padding: 0;
-        /* Sin márgenes laterales */
         align-items: flex-start;
     }
 
     .profile-card {
         border-radius: 0;
-        /* Sin bordes redondeados */
         border: none;
         min-height: 100vh;
         width: 100%;
@@ -391,7 +388,6 @@ body {
         transform: none;
         opacity: 1;
         animation: none;
-        /* Carga inmediata tras el loader */
     }
 
     .profile-header {
@@ -402,7 +398,6 @@ body {
     .social-links {
         gap: 0;
         margin: 0 -24px;
-        /* Expandir hasta los bordes */
     }
 
     .social-link {
@@ -424,7 +419,6 @@ body {
     }
 }
 
-/* Soporte para pantallas cortas */
 @media (max-height: 650px) and (min-width: 481px) {
     .profile-header {
         height: 100px;
@@ -441,7 +435,6 @@ body {
     }
 }
 
-/* --- Botones con Animaciones --- */
 .button {
     padding: 14px;
     border-radius: 12px;
@@ -620,6 +613,7 @@ body {
         color: var(--text-secondary);
         margin-bottom: 20px;
     }
+
 
     .section-title {
         font-size: 0.9rem;
